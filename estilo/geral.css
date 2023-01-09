@@ -1,0 +1,25 @@
+body {
+    /*background-color: #000;
+    background-image: url(../imagem/IMG-20180730-WA0017.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/    
+
+    /*shorthand - backgound:
+    color - image - position- reapt -[size] - attachment */
+
+    background: #000 url(../imagem/IMG-20180730-WA0017.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+main {
+    width: 300px;
+    margin: auto;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.titulo {
+    text-align: center;
+}
